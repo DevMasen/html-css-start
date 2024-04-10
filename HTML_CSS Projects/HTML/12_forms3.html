@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>forms3</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <!-- fieldset draw a line around form -->
+            <fieldset>
+                <!-- legend writes a text between fieldset line. -->
+                <legend>Login Form</legend>
+                <!-- label connects labeltext with input -->
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="myemail" id="email" required>
+                <br>
+                <label for="pass">Password</label>
+                <input type="password" name="mypass" id="pass" required>
+                <br>
+                Select gender:
+                <label>
+                    Male<input type="radio" name="gen" id="" value="male" checked>
+                </label>
+                <label for="fe">Female</label>
+                <input type="radio" name="gen" id="fe" value="femail">
+                <br>
+                <label for="age">Age</label>
+                <input type="text" name="myage" id="age" required>
+                <br>
+                <label for="bd">BirthDate</label>
+                <input type="date" id="bd" name="birthday">
+                <br>
+                <label for="url">Website</label>
+                <input type="url" id="url">
+                <br>
+                <label for="srch">Search</label>
+                <input type="search" placeholder="search here ..." name="" id="srch">
+                <br>
+                <button type="submit">submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>

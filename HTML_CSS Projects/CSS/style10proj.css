@@ -1,0 +1,43 @@
+body{
+    background: url("/PICTUREs/code.jpg");
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav>li{
+    display: grid inline;
+    margin: 5px;
+}
+#nav>li>a{
+    text-decoration: none;
+    color: brown;
+}
+#nav{
+    text-align: center;
+    border-bottom: solid 4px purple;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: bisque;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+#d1{
+    color: aliceblue;
+}
+#d2>img{
+    width:300px;
+    height: 200px;
+    border-radius: 5px;
+}
+#d2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin-top: 650px;
+}

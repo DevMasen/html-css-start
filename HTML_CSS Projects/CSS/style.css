@@ -1,0 +1,14 @@
+p{
+    background-color: black;
+    font-size: large;
+    color: blueviolet;
+}
+#p2,#p4{
+    background-color: pink;
+    color: black;
+}
+.par{
+    background-color: cadetblue;
+    color:black;
+    font-size: x-large;
+}

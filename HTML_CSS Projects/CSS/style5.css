@@ -1,0 +1,36 @@
+#p1{
+    background-color: blueviolet;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+#p2{
+    text-indent: 20px;
+
+}
+#d1{
+    background-color: brown;
+    line-height: 50px;
+}
+#d2{
+    text-shadow: -2px -2px 2px rgb(83, 11, 104);
+    line-height: 40px;
+}
+a{
+    background-color: aquamarine;
+    /* leading space */
+    line-height: 50px;
+    text-decoration: none;
+}
+table{
+    height: 150px;
+}
+#top{
+    vertical-align: top;
+}
+#center{
+    vertical-align: middle;
+}
+#bottom{
+    vertical-align: bottom;
+}
