@@ -1,0 +1,18 @@
+#l1{
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: lower-alpha;*/
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-roman; */
+    list-style-type: lower-roman;
+
+}
+#l2{
+    list-style: inside circle;
+    /* list-style: square; */
+    /* list-style: disc; */
+    /* list-style: none; */
+    /* list-style-image: url("../PICTUREs/rhombus.png"); */
+}
+#l3{
+    list-style-position: inside;
+}

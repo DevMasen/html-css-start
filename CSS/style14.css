@@ -1,0 +1,41 @@
+a:link{
+    color: cadetblue;
+    text-decoration: none;
+    display: block;
+}
+a:hover{
+    color: blueviolet;
+    border: solid 2px blueviolet;
+    cursor: grab;
+}
+a:active{
+    color: brown;
+    border-color: brown;
+    cursor: grabbing;
+}
+a:visited{
+    color: rgb(2, 102, 102);
+}
+
+li{
+    background-color: burlywood;
+    line-height: 30px;
+    display: inline;
+}
+li:first-child{
+    color: aquamarine;
+}
+li:last-child{
+    color: brown;
+}
+li:nth-child(3){
+    color: chartreuse;
+}
+li:nth-child(even){
+    color: crimson;
+}
+li:hover{
+    cursor: pointer;
+}
+
+/* more pseudo classes on https://developer.mozilla.org */

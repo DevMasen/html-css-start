@@ -1,0 +1,41 @@
+#d1{
+    width: 50px;
+    height: 50px;
+    background-color:blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    transform: translate(-50%,-50%) rotate(45deg);
+    
+}
+#d1::after{
+    content: "";
+    width:50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    left: -50%;
+}
+#d1::before{
+    content: "";
+    width:50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+}
+#d1,
+#d1::after,
+#d1::before{
+    animation:heart 800ms cubic-bezier(0,1.37,1,.92) infinite ;
+}
+@keyframes heart{
+    50% {
+        width: 60px;
+        height: 60px;
+        background-color: rgb(114, 8, 213);
+    }
+}

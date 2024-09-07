@@ -1,0 +1,147 @@
+@font-face {
+    font-family:"Nazanin";
+    src: url("../Fonts/WOFF/IRNazanin-Regular.woff");
+}
+@font-face {
+    font-family:"Homa";
+    src: url("../Fonts/WOFF/IRHoma-Regular.woff");
+}
+body{
+    background: url("../PICTUREs/code.jpg") no-repeat center fixed;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+.header{
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: dotted 5px orange;
+}
+#l1>li{
+    display: inline;
+    margin-right: 40px;
+}
+#l1>li>a{
+    text-decoration: none;
+    color: black;
+    border: groove 1px orange;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 8px;
+    line-height: 35px;
+}
+
+.main{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+}
+#wellcome{
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-image: url("../PICTUREs/border2.png") 30 fill;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+#left>h3{
+    margin-top: 30px;
+    font-size: 20px;
+    border-bottom: solid 2px white;
+    max-width: 100%;
+    font-variant: small-caps;
+    text-shadow: -2px -2px 1px #555;
+}
+p{
+    padding-bottom: 30px;
+    text-align: left;
+    text-indent: 22px;
+    max-width: 100%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+#t1{
+    width: 80%;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+#top{
+    vertical-align: top;
+}
+#center{
+    vertical-align: middle;
+}
+#bottom{
+    vertical-align: bottom;
+}
+.s{
+    background-color: purple;
+    font-weight: 800;
+    visibility: visible;
+    display: inline;
+}
+#l2{
+    list-style: inside;
+    list-style-type: upper-roman;
+    border: solid 5px transparent;
+    border-image: url("../PICTUREs/border2.png") 30 fill;
+    max-width: 80%;
+}
+#l2>li{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.main>.aside>img{
+    margin: 20px;
+    max-height: 100%;
+    max-width: 80%;
+    display: block;
+    border-radius: 8px;
+    /* margin-left: auto; */
+    margin-right: auto;
+    box-shadow: -10px -10px 0 #444 ;
+}
+#t2{
+    width: 80%;
+    background-color: #999;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border-spacing: 3px 3px;
+    border-collapse: separate;
+}
+#t2>th,td{
+    padding: 10px;
+}
+.even{
+    background-color: #777;
+}
+.odd{
+    background-color: #ddd;
+}
+.money{
+    text-align: center;
+}
+.aside:first-child{
+    margin-right: 20px;
+    padding: 10px;
+    flex: 4;
+}
+.aside:last-child{
+    padding: 10px;
+    flex: 1;
+}
+
+.footer{
+    border-top: dashed 5px orange;
+    font-family: serif;
+    font-style: italic;
+    color: beige;
+    height: 50lvh;
+    opacity: 0.8;
+}

@@ -1,0 +1,24 @@
+#in{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: solid 3px #777;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black ;
+}
+#in:focus{
+    background-color: #777;
+    border: solid 3px blueviolet;
+}
+
+#bu{
+    margin-top: 30px;
+    line-height: 30px;
+    /* border: solid 3px #777; */
+    /* border: none; */
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+#bu:hover{
+    background-color: #777;
+    color: aliceblue;
+}

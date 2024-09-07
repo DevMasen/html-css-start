@@ -1,0 +1,32 @@
+#test{
+    width:125px;
+    height: 125px;
+    background-color: hsl(200, 90%, 40%);
+    font-size: xx-small;
+}
+#test1{
+    width:125px;
+    height: 125px;
+    background-color: rgba(128,43,266,0.5);
+    font-size: xx-small;
+}
+#test2{
+    width:125px;
+    height: 125px;
+    background-color: rgba(128,43,266,1);
+    font-size: xx-small;
+}
+/* body{
+    display: flex;
+} */
+/* 
+R:Red 0-255
+G:Green 0-255
+B:Blue 0-255
+A:Capacity 0-1 */
+/* 
+HSL:
+H:Hue 0-359 
+S:Saturation 0-100 %
+L:Lightness 0-100 %
+ */

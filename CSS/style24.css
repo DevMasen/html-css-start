@@ -1,0 +1,59 @@
+#d1{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* 
+    1-animation-name: test;
+    2-animation-duration: 5s;
+    3-animation-timing-function: ease-in-out;
+    4-animation-delay: 1s;
+    5-animation-iteration-count: 2;
+    6-animation-direction: alternate ;
+    animation-fill-mode: both ; */
+    animation: test 4s 500ms 2 alternate; 
+}
+
+@keyframes test{
+    /* to{
+        background-color: brown;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    } */
+    0%{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    20%{
+        width: 70%;
+        height: 70%;
+        background-color: deeppink;
+    }
+    40%{
+        width: 50%;
+        height: 50%;
+        background-color: cadetblue;
+    }
+    60%{
+        width: 30%;
+        height: 30%;
+        background-color: chartreuse;
+    }
+    80%{
+        width: 20%;
+        height: 20%;
+        background-color: cyan;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+    }
+
+}

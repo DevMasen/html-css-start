@@ -1,0 +1,32 @@
+table{
+    width: 700px;
+    background-color: #999;
+    padding: 10px;
+    border-radius: 10px;
+    border-spacing: 5px 5px;
+    border-collapse: separate;
+}
+td,th{
+    padding-bottom: 10px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-bottom: solid 2px black;
+}
+.even{
+    background-color: #777;
+}
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+.money{
+    text-align: center;
+}
+
+td{
+    border: solid;
+    /* empty-cells: hide; */
+
+}

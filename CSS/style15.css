@@ -1,0 +1,55 @@
+body{
+    height: 2000px;
+}
+#d1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: static;
+}
+#d2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(75, 253, 4);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+}
+#d3{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+#d4{
+    width: 80px;
+    height: 80px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+#d5{
+    width: 30px;
+    height: 30px;
+    background-color: chocolate;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+#d6{
+    width: 40px;
+    height: 40px;
+    background-color: crimson;
+    position: sticky;
+    top:10px;
+    left: 800px;
+}
+
+/* Static: Default position through order.Top/Left/Right /Bottom does not work on it. */
+/* Relative: Can change position through T/L/R/B from his original static place. */
+/* Fixed: Fixes in screen through T/L/R/B even ehen scrolling */
+/* Absolute: Changes the position through T/L/R/B from Father that has Reletive position  */

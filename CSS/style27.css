@@ -1,0 +1,24 @@
+body{
+    background: url("../PICTUREs/code.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.parent{
+    width: 200px;
+    height: 400px;
+    background-color: transparent;
+    color: white;
+    /* opacity: 0.4; */
+    /* border: solid 3px blueviolet; */
+    border: solid 3px currentColor;
+    padding: 20px;
+    line-height: 30px;
+    
+}
+.child{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border: inherit;
+    line-height: 40px;
+    color: brown;
+}

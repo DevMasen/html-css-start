@@ -1,0 +1,38 @@
+p#p1{
+    background-color: blueviolet;
+}
+
+#p1::first-line{
+    background-color: brown;
+    font-size: 20px;
+}
+#p1::first-letter{
+    color: aliceblue;
+    font-size: 30px;
+}
+/* #p1::before{
+    content: "Hello world";
+} */
+#p1::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: burlywood;
+    border-radius: 50%;
+    position: absolute;
+}
+#p1::after{
+    content: url("../PICTUREs/banana.jpg");
+}
+#p2::selection{
+    background-color: rebeccapurple;
+    color: aliceblue;
+}
+::marker{
+    color: crimson;
+}
+ol>li::marker{
+    color: darkgreen;
+}
+
+/* more pseudo elements on https://developer.mozilla.org */

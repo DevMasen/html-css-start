@@ -1,0 +1,27 @@
+#test1 p{
+    background-color: blueviolet;
+}
+#test1 .test2{
+    color: yellow;
+}
+#test1>p{
+    font-size: 30px;
+}
+#test1>.test2{
+    font-style: italic;
+}
+
+#test1 + p{
+    background-color: blue;
+}
+#test1 ~ p {
+    color: crimson;
+}
+#test1 ~ .test3{
+    background-color: aquamarine;
+}
+
+
+/* space selector : All generation */
+/* (>) selecror : Only children  */
+/* (+) selector : The onli sibling that comes after first one*/

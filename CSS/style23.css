@@ -1,0 +1,24 @@
+body{
+    height: 2000px;
+}
+#d1{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 500ms ease-in, height 500ms ease-in-out , background-color 500ms;
+    /* transition: height 500ms ease ; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); */
+    /* transition:property duration timingt delay */
+}
+#d1:hover{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
+/*more cubic bezier on https://cubic-bezier.com/ */
